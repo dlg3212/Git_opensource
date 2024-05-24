@@ -1,0 +1,153 @@
+참고 7장
+
+# 변수 
+-서언
+ var="원하는 content" 선언시 공백 X
+ var=Lee
+ var="Lee Tae ho" 공백이 있을시 따옴표 사용
+ -데이터 타입이 없어, 모두 문자열로 인식
+
+-사용
+  $var
+  echo $var
+  -셀이 값을 치환한다. (프로그램 구동 시)
+  echo Lee
+  -[a-zA-z_0-9]*
+
+## 할당
+  - 프로그램 이름도 변수로 받을 수 있음.
+  - ex) command=wc
+        op=-c
+        $command $op animals.txt
+
+- 다른 변수도 새 변수로 할당할 수 있다.
+
+  var2=$var
+  echo %var2 같다.
+
+
+- 선언하지 않은 변수 : null 값이 설정됨. (오류 나지 않음)
+  - 명령 라인에 넣어도 무시됨.
+
+## null
+  3가지
+  var=
+  var=""
+  var=''
+
+
+  var = ' ' 공백이 있어서 null X
+
+
+# 변수 활용하기
+- file=grades -> grades1 (바꾸고 싶을때)
+- file=grades1
+- ${변수} 구조
+- ${file}1
+
+Q. grades -> grades1
+  mv $file ${file}1
+  $file $file1 (업으면 또 다른 변수가 됨)
+
+
+## substring  추출하기
+-animals.txt -> animal.md
+-${var:0:4} 0에서부터 4까지 출력
+${var:10:4} 10에서부터 14까지
+  
+var=animals.txt
+mv var ${var:0:8}md
+
+
+## $((변수)) 구조
+- 수학 연산을 가능하게 하는 구조
+- 숫자인 문자열이 들어왔을 때, 숫자로 인식함.
+-
+Q. 5를 변수에 담고 활용해서 15를 변수에 담아보세요
+
+
+-$((ten = ten+1))
+-초깃값 0
+
+
+- 비교 연산
+  $((ten>0)) #1==True 0==false
+
+
+Q. 임의의 수 num이 2의 배수인지 확인하는 코
+
+
+## $( ) 표현
+- 명령의 결과값을 변수에 담고 싶을 때
+result=$(cat /etc/passwd|cut -d: -f1)
+
+
+
+# 스크립트 파일 작성하기
+  -파일 확장자는 .sh or none(없어도 인식)
+  - vi로 염
+  - 1) 파일을 실행가능한 상태로 바꾼다.
+  chmod +x ex1
+  ./ex1
+  - 2) 실행하기
+  - shebang 달기
+
+  # 인수
+  
+
+  ##위치 변수 (positional argument)
+  -$n(숫자)(-9까지)
+  -외부에서 인수를 받아와서 사용할 때
+  -${10} 10 이상일 때
+
+  ## $#
+  - 총 인수 개수
+  "$#"
+  ''은 모든 기능해제라 사용 안함
+  - 큰 따옴표로 인수 감싸는 습관 들여야 함
+
+  Q. 디렉터리를 인수로 받아서, 파일과 디렉터리 개수를 세는 스크립트 짜기
+
+  
+
+
+  positon=$1
+  echo"현재 위치: $position"
+  directory=$(ls -l $positon|cut -c1|grep d|wc -l)
+  file=$(ls -l $position|cut -c1|grep -v d|wc -l)
+
+  echo "파일 $file개, 폴더 $directory개입니다."
+
+  
+  
+  
+## s*
+- 모든 인수를 출력해주는 변수
+
+
+
+# 전화번호부 관리 스크립트 만들기
+1)검색
+  ./book.sh 이름 
+    번호 출력
+
+2)추가
+  이름, 번호 추가
+
+3)삭제
+  이름으로 검색해서 이름,번호를 삭제하기
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
