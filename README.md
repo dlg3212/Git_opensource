@@ -10,7 +10,7 @@
 
 ![text](https://blog.kakaocdn.net/dn/exQOEi/btrFybgiqUS/KzW7Duk909nQgbyk7K830K/img.png)  
 
-## **Folder 설명**  
+## **📂Folder 설명📂**  
 
 1. .git
   + git에서 활용하는 데이터들이 저장되는 곳이다.
