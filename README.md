@@ -24,7 +24,7 @@
 |:---------:|:--------------------------:|:-----------------:|
 |1주차|SHELL이란 무엇인가?| [***1주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/3.11%20%EC%98%A4%ED%94%88%20%EC%86%8C%EC%8A%A4%20%ED%8C%8C%EC%9D%BC%20(2).txt, "1주차")
 |2주차|SHELL의 문법들과 명령어(1)|[***2주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/3.18, "2주차")
-|3주차|SHELL의 문법들과 명령어(2)|[***3주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/04.01, "3주차")
+|3주차|SHELL의 문법들과 명령어(2)|[***3주차***](https://github.com/dlg3212/Git_opensource/blob/main/CLASS/04.01, "3주차")
 |4주차|SHELL 리다이렉션과 DIRECTORY 명령|[***4주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/04.08, "4주차")
 |5주차|정규표현식과 파일 내용 변경|[***5주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/04.15, "5주차")
 |6주차|변수와 스크립트 파일 작성|[***6주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/4.29, "6주차")
