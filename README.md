@@ -22,7 +22,7 @@
 ## **🎓강의 계획서🎓**
 |주차(WEEK)|내용|파일 링크|
 |:---------:|:--------------------------:|:-----------------:|
-|1주차|SHELL이란 무엇인가?| [***1주차***](https://github.com/dlg3212/Git_opensource/blob/09698d7e593f5ed67551ba7c0f45962a0a4c29c5/CLASS/04.01)
+|1주차|SHELL이란 무엇인가?| [***1주차***](https://github.com/dlg3212/Git_opensource/blob/659f203a84515c395e772281c77b4d3481f8a875/CLASS/3.11%20%EC%98%A4%ED%94%88%20%EC%86%8C%EC%8A%A4%20%ED%8C%8C%EC%9D%BC%20(2).txt)
 |2주차|SHELL의 문법들과 명령어(1)|[***2주차***](https://github.com/dlg3212/Git_opensource/blob/09698d7e593f5ed67551ba7c0f45962a0a4c29c5/CLASS/03.18)
 |3주차|SHELL의 문법들과 명령어(2)|[***3주차***](https://github.com/dlg3212/Git_opensource/blob/09698d7e593f5ed67551ba7c0f45962a0a4c29c5/CLASS/04.01)
 |4주차|SHELL 리다이렉션과 DIRECTORY 명령|[***4주차***](https://github.com/dlg3212/Git_opensource/blob/09698d7e593f5ed67551ba7c0f45962a0a4c29c5/CLASS/04.08)
