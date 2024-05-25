@@ -21,11 +21,13 @@
 
 ## **🎓강의 계획서🎓**
 |주차(WEEK)|내용|파일 링크|
-|---------|-----------------------|-----------------|
-|-:1주차:|:깃은 무엇인가?:|
-|:2주차:|:깃 시작하기:|
-|:3주차:|버전 관리, 저장소 만들기, 커밋|
-|:4주차:|브랜치 (브랜치 만들기, 정보확인, 병합)|
-|:5주차:|Github 지역저장소와 원격저장소 연결|
-|:6주차:|Github로 협업하기|
-|:7주차:|셸 스크립트 기초 문법|
+|:---------:|:--------------------------:|:-----------------:|
+|1주차|SHELL이란 무엇인가?| [***1주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/3.11%20%EC%98%A4%ED%94%88%20%EC%86%8C%EC%8A%A4%20%ED%8C%8C%EC%9D%BC%20(2).txt, "1주차")
+|2주차|SHELL의 문법들과 명령어(1)|[***2주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/3.18, "2주차")
+|3주차|SHELL의 문법들과 명령어(2)|[***3주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/04.01, "3주차")
+|4주차|SHELL 리다이렉션과 DIRECTORY 명령|[***4주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/04.08, "4주차")
+|5주차|정규표현식과 파일 내용 변경|[***5주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/04.15, "5주차")
+|6주차|변수와 스크립트 파일 작성|[***6주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/4.29, "6주차")
+|7주차|MARKDOWN과 실습|[***7주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/5.13, "7주차")
+|8주차| GIT 활용과 REPLIT과 GIT 연결하기|[***8주차***](CLASS/5.13, "8주차")
+|9주차 ~| (추가 예정)|
