@@ -22,12 +22,12 @@
 ## **🎓강의 계획서🎓**
 |주차(WEEK)|내용|파일 링크|
 |:---------:|:--------------------------:|:-----------------:|
-|1주차|SHELL이란 무엇인가?| [***1주차***](https://github.com/dlg3212/Git_opensource/blob/cddca91e182cb6cf9d178be52d223b90af4cbd21/CLASS/04.01, "1주차")
+|1주차|SHELL이란 무엇인가?| [***1주차***](https://github.com/dlg3212/Git_opensource/blob/cddca91e182cb6cf9d178be52d223b90af4cbd21./CLASS./04.01, "1주차")
 |2주차|SHELL의 문법들과 명령어(1)|[***2주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/3.18, "2주차")
 |3주차|SHELL의 문법들과 명령어(2)|[***3주차***](https://github.com/dlg3212/Git_opensource/blob/main/CLASS/04.01, "3주차")
 |4주차|SHELL 리다이렉션과 DIRECTORY 명령|[***4주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/04.08, "4주차")
 |5주차|정규표현식과 파일 내용 변경|[***5주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/04.15, "5주차")
 |6주차|변수와 스크립트 파일 작성|[***6주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/4.29, "6주차")
 |7주차|MARKDOWN과 실습|[***7주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/5.13, "7주차")
-|8주차| GIT 활용과 REPLIT과 GIT 연결하기|[***8주차***](#CLASS/5.13, "8주차")
+|8주차| GIT 활용과 REPLIT과 GIT 연결하기|[***8주차***](./CLASS/5.13, "8주차")
 |9주차 ~| (추가 예정)|
