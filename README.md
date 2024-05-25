@@ -27,7 +27,7 @@
 |3주차|SHELL의 문법들과 명령어(2)|[***3주차***](https://github.com/dlg3212/Git_opensource/blob/09698d7e593f5ed67551ba7c0f45962a0a4c29c5/CLASS/04.01)
 |4주차|SHELL 리다이렉션과 DIRECTORY 명령|[***4주차***](https://github.com/dlg3212/Git_opensource/blob/09698d7e593f5ed67551ba7c0f45962a0a4c29c5/CLASS/04.08)
 |5주차|정규표현식과 파일 내용 변경|[***5주차***](https://github.com/dlg3212/Git_opensource/blob/09698d7e593f5ed67551ba7c0f45962a0a4c29c5/CLASS/04.15)
-|6주차|변수와 스크립트 파일 작성|[***6주차***](https://github.com/dlg3212/Git_opensource/blob/09698d7e593f5ed67551ba7c0f45962a0a4c29c5/CLASS/04.29)
-|7주차|MARKDOWN과 실습|[***7주차***](https://github.com/dlg3212/Git_opensource/blob/09698d7e593f5ed67551ba7c0f45962a0a4c29c5/CLASS/05.13)
-|8주차| GIT 활용과 REPLIT과 GIT 연결하기|[***8주차***](./CLASS/5.13, "8주차")
+|6주차|변수와 스크립트 파일 작성|[***6주차***](https://github.com/dlg3212/Git_opensource/blob/017e0270b308dc037fbd61cdb8175734cacb098c/CLASS/4.29)
+|7주차|MARKDOWN과 실습|[***7주차***](https://github.com/dlg3212/Git_opensource/blob/017e0270b308dc037fbd61cdb8175734cacb098c/CLASS/5.13)
+|8주차| GIT 활용과 REPLIT과 GIT 연결하기|[***8주차***](https://github.com/dlg3212/Git_opensource/blob/017e0270b308dc037fbd61cdb8175734cacb098c/CLASS/5.20.txt)
 |9주차 ~| (추가 예정)|
