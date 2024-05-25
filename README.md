@@ -29,5 +29,5 @@
 |5주차|정규표현식과 파일 내용 변경|[***5주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/04.15, "5주차")
 |6주차|변수와 스크립트 파일 작성|[***6주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/4.29, "6주차")
 |7주차|MARKDOWN과 실습|[***7주차***](https://replit.com/@dlg32123/Gitopensource#CLASS/5.13, "7주차")
-|8주차| GIT 활용과 REPLIT과 GIT 연결하기|[***8주차***](CLASS/5.13, "8주차")
+|8주차| GIT 활용과 REPLIT과 GIT 연결하기|[***8주차***](#CLASS/5.13, "8주차")
 |9주차 ~| (추가 예정)|
