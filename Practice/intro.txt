@@ -1,0 +1,6 @@
+The UNIX operating system was pioneered by Ken
+Tompson and Dennis Ritchie at Bell Laboratories
+in the late 1960s. One of the primary goals in
+the design of the UNIX system was to create an
+environment that promoted efficient program
+development.
