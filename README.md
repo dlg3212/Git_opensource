@@ -31,3 +31,6 @@
 |7주차|MARKDOWN과 실습|[***7주차***](https://github.com/dlg3212/Git_opensource/blob/017e0270b308dc037fbd61cdb8175734cacb098c/CLASS/5.13 "7주차 파일")
 |8주차| GIT 활용과 REPLIT과 GIT 연결하기|[***8주차***](https://github.com/dlg3212/Git_opensource/blob/017e0270b308dc037fbd61cdb8175734cacb098c/CLASS/5.20.txt "8주차")
 |9주차 ~| (추가 예정)|
+
+
++ 이번 학기 이제 얼마 안 남았는데 모두 조금만 더 화이팅 합시다!
