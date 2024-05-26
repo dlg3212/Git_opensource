@@ -126,6 +126,7 @@ q로 빠져나옴
     short, oneline, full, fuller
   
   git log --pretty=short
+  git log --pretty=format:"%h - %an, %ar: %s"
 
   
 h : 커밋해시
@@ -162,7 +163,7 @@ t/ 경로에 대해서
     2. 커밋 -> 수정 -> git commit -a --amend
 
   2) 이전 상태로 되돌리기
-    git reset HEAD file_name
+    git reset HEAD (file_name)
 
   3) 파일 내용 되돌리기
     git checkout -- file_name
