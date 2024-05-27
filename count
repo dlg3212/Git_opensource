@@ -1,8 +1,20 @@
 #!/bin/bash
 
-first="$1"
-
-if [ $# -ne 0 ]
+if[ $# -eq 0 ]
 then
-echo 프로그램을 실행합니다.
+exit 0
+elif[ $# -eq 1 ]
+then
+first="$1"
+case $first
+in	
+1) echo jan;;	
+2) echo Feb;;
+3) echo March;;
+4) echo April;;
+5) echo may;;
+*) echo no;;
+else 
+then
+exit 0
 fi
