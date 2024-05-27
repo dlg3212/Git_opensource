@@ -117,7 +117,6 @@ q로 빠져나옴
 
 8. 디렉토리 특정
    git log -- tmp/ notes/
-   
 10. 통계 조회하기
    git log --stat
 
