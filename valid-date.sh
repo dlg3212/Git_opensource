@@ -1,10 +1,6 @@
 Month="$1"
 day="$2"
 year="$3"
-if [ $# -ne 3 ]; then
-  echo "잘못된 입력입니다. 프로그램을 종료합니다."
-  exit 1
-fi
 
 case $Month in
   1|jan|january|JAN)
@@ -42,29 +38,29 @@ elif [ $((year%400)) -eq 0 ]; then
   echo "$year은 윤년입니다."
   case $Month in
     JANUARY)
-    day=31;;
+    date=31;;
     FEBRUARY)
-    day=29;;
+    date=29;;
     MARCH)
-    day=31;;
+    date=31;;
     APRIL)
-    day=30;;
+    date=30;;
     MAY)
-    day=31;;
+    date=31;;
     JUNE)
-    day=30;;
+    date=30;;
     JULY)
-    day=31;;
+    date=31;;
     AUGUST)
-    day=31;;
+    date=31;;
     SEPTEMBER)
-    day=30;;
+    date=30;;
     OCTOBER)
-    day=31;;
+    date=31;;
     NOVEMBER)
-    day=30;;
+    date=30;;
     DECEMBER)
-    day=31;;
+    date=31;;
     *)
   esac
     
@@ -72,6 +68,11 @@ else
   echo "$year은 윤년이 아닙니다."
 fi
 
-echo "$Month $day $year"
+if [ $# -ne 3 ]; then
+  echo "입력값 오류"
+  exit 1
+elif [ ${day} -gt ${date} ] || [ ${day} -lt 0 ]; then
+  echo "입력값 오류"  
+fi
 
-    
+echo "$Month $day $year"
