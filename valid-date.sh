@@ -69,14 +69,14 @@ esac
 if [ $((year%4)) -ne 0 ]; then
   leap_year="$year년은 윤년이 아닙니다."
 elif [ $((year%400)) -eq 0 ]; then
-  leap_year="$year년은 윤년이므로 FEB는 29일까지 있습니다."
+  leap_year="$year년은 윤년이므로 2월은 29일까지 있습니다."
   if [ $Month = Feb ]; then
   date=29
   fi
 elif [ $((year%100)) -eq 0 ]; then
   leap_year="$year년은 윤년이 아닙니다."
 else
-   leap_year="$year년은 윤년이므로 FEB는 29일까지 있습니다."
+   leap_year="$year년은 윤년이므로 2월은 29일까지 있습니다."
    date=29
 fi
 
