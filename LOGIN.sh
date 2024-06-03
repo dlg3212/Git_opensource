@@ -62,8 +62,12 @@ do
 	elif [ $check = "Y" ]
 	then
 		echo "60초 대기모드로 들어갑니다."
-		echo "강제 종료를 원하시면 ctrl+c를 입력해주세요."
+		echo "강제 종료를 원하시면 ctrl+c를 입력해주세요"
 		sleep 60
+		#로그인한 사용자 재 검사
+		who > tmp.txt
+		cut -d"	" -f1  tmp.txt > login.txt 
+		number=$(wc -l login.txt)
 	#잘못된 입력이면 프로그램 종료
 	else
 		echo "잘못된 입력입니다. 프로그램을 종료합니다."
