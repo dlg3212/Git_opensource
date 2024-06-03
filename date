@@ -1,14 +1,15 @@
 #!/bin/bash
 
-date=$(date"+%H)
+date=$(date "+%H")
+
+echo "$date"
 
 if [ $date -gt 0 ] && [ $date -lt 9 ]
 then
-echo 굿모닝
-elif[ $date -gt 9 ] && [ $date -lt 17 ]
-then 
-echo 굿애프터눈
-else 
+echo "굿모닝"
+elif [ $date -gt 9 ] && [ $date -lt 17 ]
 then
-echo 굿이브닝
+echo "굿애프터눈"
+else 
+echo "굿이브닝"
 fi
