@@ -68,6 +68,7 @@ do
 		who > tmp.txt
 		cut -d"	" -f1  tmp.txt > login.txt 
 		number=$(wc -l login.txt)
+		count=0
 	#잘못된 입력이면 프로그램 종료
 	else
 		echo "잘못된 입력입니다. 프로그램을 종료합니다."
