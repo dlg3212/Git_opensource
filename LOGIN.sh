@@ -10,9 +10,13 @@ echo "1개의 인수만 입력해주세요, 프로그램을 종료합니다."
 exit 1
 fi
 
-#who명령에서 유저 이름만 추출해 login.txt로 저장 (replit에서 who 명령 결과가 안보여서 확인불가)
-cut -d" " -f1 "$(who)" > login.txt 
+#who명령에서 유저 이름만 추출해 tmp.txt로 저장 (replit에서 who 명령 결과가 안보여서 확인불가)
+#원래는 -f1으로 탭으로 자르려고 했으나 현재 who 명령이 확인이 안되기 때문에 
+#-f1시 파일이 실행이 멈추는 오류가 발생해
+#구분자를 통해 공백으로 잘랐습니다.
 
+who > tmp.txt
+cut -d"	" -f1  tmp.txt > login.txt 
 #login.txt에 줄 수가 반복문으로 검사할 횟수
 number=$(wc -l login.txt)
 
@@ -30,7 +34,7 @@ do
 	for var in $(cat login.txt)
 		do
 		#반복문 시작 count 1증가
-		(count++)
+		count++
 		#파일에 있는 이름과 입력한 유저이름이 같으면 출력후 종료
 		if [ $var = $user ]
 		then
